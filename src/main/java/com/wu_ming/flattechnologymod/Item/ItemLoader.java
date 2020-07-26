@@ -40,6 +40,7 @@ public class ItemLoader {
     @SideOnly(Side.CLIENT)
     public static void ItemitemregisterRenders() {
         //regsiterRender(item resources name);
+        regsiterRender(flattechnology);
     }
 
     @SideOnly(Side.CLIENT)
@@ -48,4 +49,3 @@ public class ItemLoader {
         ModelLoader.setCustomModelResourceLocation(item, 0,model);
     }
 }
-
